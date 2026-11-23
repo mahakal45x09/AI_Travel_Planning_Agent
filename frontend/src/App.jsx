@@ -412,48 +412,104 @@ function App() {
         {/* ===== ABOUT TAB ===== */}
         {activeTab === 'about' && (
           <div className="welcome-screen">
-            <div className="welcome-emoji">🌍</div>
-            <h2>AI Travel Planning Agent</h2>
+            <div className="welcome-emoji">🦚</div>
+            <h2>AI Travel Planning Agent (TravelBuddy AI)</h2>
             <p>
-              An open-source AI-powered travel assistant built with FastAPI, LangChain,
-              and React. Plan trips across 190+ countries with deep India coverage.
+              An intelligent, culturally rich AI travel companion built with FastAPI, LangChain, and React. 
+              Designed to help travelers explore the timeless beauty of Incredible India and iconic destinations across 190+ countries.
             </p>
+
+            {/* What the app does - Short summary */}
             <div className="features-list">
               <div className="feature-item">
                 <span className="feature-icon">🤖</span>
                 <div className="feature-text">
-                  <strong>LangChain AI Agent</strong>
-                  Powered by Gemini/GPT with 7 specialized tools
+                  <strong>Conversational AI Travel Planner</strong>
+                  Natural language itineraries powered by LangChain & Google Gemini with 7 integrated tools.
                 </div>
               </div>
               <div className="feature-item">
-                <span className="feature-icon">⚡</span>
+                <span className="feature-icon">🇮🇳</span>
                 <div className="feature-text">
-                  <strong>FastAPI Backend</strong>
-                  High-performance async API with auto-docs
+                  <strong>Deep Indian Culture & Heritage</strong>
+                  Curated 71+ destinations across 27 Indian states covering forts, palaces, ghats, and retreats.
                 </div>
               </div>
               <div className="feature-item">
-                <span className="feature-icon">📊</span>
+                <span className="feature-icon">💰</span>
                 <div className="feature-text">
-                  <strong>Clean Data Pipeline</strong>
-                  6 automated cleaning scripts for 7 datasets
+                  <strong>Smart Budget Estimation</strong>
+                  Detailed expense breakdowns for Budget, Mid-range, and Royal Luxury travel in INR & USD.
                 </div>
               </div>
               <div className="feature-item">
-                <span className="feature-icon">🔓</span>
+                <span className="feature-icon">✈️</span>
                 <div className="feature-text">
-                  <strong>Open Source (MIT)</strong>
-                  Contribute destinations, code, or translations
+                  <strong>4,500+ Airport Database</strong>
+                  Instant global airport lookup with IATA codes, cities, and connectivity.
                 </div>
               </div>
             </div>
-            <div style={{ marginTop: 'var(--space-xl)' }}>
-              <p style={{ color: 'var(--text-muted)', fontSize: '0.9rem' }}>
-                Built with ❤️ • MIT License •{' '}
-                <a href="https://github.com" target="_blank" rel="noopener">
-                  GitHub
+
+            {/* Developer Contact Card */}
+            <div className="dev-card">
+              <div className="dev-card-header">
+                <div className="dev-avatar">👨‍💻</div>
+                <div className="dev-name">Mahakal Ketan Hasmukhbhai</div>
+                <div className="dev-role">Creator & Full-Stack Developer • @mahakal45x09</div>
+              </div>
+
+              <p style={{ fontSize: '0.95rem', color: 'var(--text-secondary)', maxWidth: '650px', margin: '0 auto' }}>
+                Passionate about building AI-driven solutions, intelligent agentic workflows, and modern web applications celebrating Indian heritage and global travel.
+              </p>
+
+              <div className="contact-links">
+                <a 
+                  href="https://github.com/mahakal45x09" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="contact-pill"
+                >
+                  <span>🐙</span> GitHub: @mahakal45x09
                 </a>
+                <a 
+                  href="https://github.com/mahakal45x09/AI_Travel_Planning_Agent" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="contact-pill"
+                >
+                  <span>⭐</span> Repository
+                </a>
+                <a 
+                  href="https://www.linkedin.com/in/mahakal45x09" 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="contact-pill"
+                >
+                  <span>💼</span> LinkedIn
+                </a>
+                <a 
+                  href="mailto:ketanmahakal123@gmail.com" 
+                  className="contact-pill"
+                >
+                  <span>✉️</span> ketanmahakal123@gmail.com
+                </a>
+                <a 
+                  href="tel:+919876543210" 
+                  className="contact-pill"
+                >
+                  <span>📱</span> +91 Contact
+                </a>
+              </div>
+            </div>
+
+            {/* Copyright Notice */}
+            <div className="copyright-bar">
+              <p>
+                © {new Date().getFullYear()} <strong>mahakal45x09</strong> (Mahakal Ketan Hasmukhbhai). All Rights Reserved.
+              </p>
+              <p style={{ marginTop: '4px', fontSize: '0.8rem', opacity: 0.8 }}>
+                Built with ❤️ for travelers worldwide • Open Source MIT License
               </p>
             </div>
           </div>

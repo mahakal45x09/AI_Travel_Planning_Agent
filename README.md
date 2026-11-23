@@ -239,8 +239,19 @@ Contributions are warmly welcomed! Please check [CONTRIBUTING.md](CONTRIBUTING.m
 
 ---
 
-## 📜 License
+## 👨‍💻 Author & Contact
 
+**Mahakal Ketan Hasmukhbhai**
+- 🐙 **GitHub:** [@mahakal45x09](https://github.com/mahakal45x09)
+- 💼 **LinkedIn:** [mahakal45x09](https://www.linkedin.com/in/mahakal45x09)
+- ✉️ **Email:** [ketanmahakal123@gmail.com](mailto:ketanmahakal123@gmail.com)
+- 📁 **Repository:** [AI_Travel_Planning_Agent](https://github.com/mahakal45x09/AI_Travel_Planning_Agent)
+
+---
+
+## 📜 License & Copyright
+
+© 2026 **mahakal45x09** (Mahakal Ketan Hasmukhbhai). All Rights Reserved.  
 This project is licensed under the [MIT License](LICENSE).
 
 ---
